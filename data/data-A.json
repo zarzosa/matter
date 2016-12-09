@@ -1,0 +1,79 @@
+{
+  "general": {
+    "initialPosition": {
+      "minX": 0,
+      "maxX": 1600,
+      "minY": 0,
+      "maxY": 900
+    },
+    "stopFactor": 0.25,
+    "useDirection": true,
+    "landing": {
+      "hue": {
+        "min": 0,
+        "max": 255
+      },
+      "saturation": {
+        "min": 0,
+        "max": 255
+      },
+      "brightness": {
+        "min": 5,
+        "max": 255
+      }
+    }
+  },
+  "movement": {
+    "speed": {
+      "min": 0.2,
+      "max": 2,
+    },
+    "continuousCanvas": false,
+    "stop": {
+      "use": true,
+      "hue": {
+        "min": 0,
+        "max": 0
+      },
+      "saturation": {
+        "min": 0,
+        "max": 0
+      },
+      "brightness": {
+        "min": 0,
+        "max": 0
+      }
+    }
+  },
+  "direction": {
+    "imageDirection": "saturation",
+    "cushioning": 0.25,
+    "dispersionProbability": 2
+  },
+  "transform": {
+    "sizeMaxLimitation": {
+      "min": 0.6,
+      "max": 1.8
+    },
+    "sizeChangeFactor": {
+      "in": 0.05,
+      "out": 0.015
+    },
+    "opacityChangeFactor": {
+      "in": 0.025,
+      "out": 0.005
+    },
+    "fillRed": {
+      "min": 0,
+      "max": 55
+    },
+    "fillGreen": {
+      "min": 0,
+      "max": 55
+    },
+    "fillBlue": {
+      "min": 0,
+      "max": 55
+    }
+  }
+}

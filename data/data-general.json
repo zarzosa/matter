@@ -1,0 +1,29 @@
+{
+  "canvas": {
+    "background": {
+      "red": 255,
+      "green": 235,
+      "blue": 0
+    }
+  },
+  "particles": {
+    "groupNumber": 4,
+    "0": {
+      "amount": 25000,
+      "json": "data-A.json"
+    },
+    "1": {
+      "amount": 30000,
+      "json": "data-B.json"
+    },
+    "2": {
+      "amount": 6000,
+      "json": "data-C.json"
+    },
+    "3": {
+      "amount": 18000,
+      "json": "data-D.json"
+    }
+  },
+  "image": "data-background.jpg"
+}
